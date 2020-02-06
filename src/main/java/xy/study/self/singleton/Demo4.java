@@ -9,7 +9,9 @@ package xy.study.self.singleton;
 public class Demo4 {
     public Demo4() {
     }
-    //只有调用getInstance方法时才会调用内部类
+    /**
+     * 只有调用getInstance方法时才会调用内部类
+     */
     private static class SingletonDemo4{
         private static final Demo4 instance=new Demo4();
     }
